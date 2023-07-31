@@ -1,0 +1,143 @@
+#nav_con {
+  grid-area: nav;
+  background-color: black;
+}
+#img_logo {
+  height: 80px;
+  width: 90px;
+  margin-top: 10px;
+}
+.nav_links {
+  display: inline-flex;
+  text-align: center;
+}
+.nav_items {
+  color: whitesmoke;
+  font-size: 25px;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+h2 {
+  margin-left: 50px;
+}
+/*  */
+main{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, auto);
+}
+.card {
+  background-color: black !important;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 5px 5px 8px black;
+  color: whitesmoke;
+  margin-left: 15px;
+  padding: 5px;
+  width: 18rem;
+}
+.card_header {
+  text-align: center;
+}
+.card_img {
+  height: 200px;
+  width: 275px;
+}
+.card_footer {
+  background-color: slategrey;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 5px;
+}
+#goToRecipe_p {
+  margin-top: 10px;
+}
+#likes_div {
+  margin-top: 10px;
+}
+#likes_div1 {
+  margin-left: 60px;
+}
+#likes_div2 {
+  display: flex;
+}
+#likes_btn {
+  background-color: slategrey;
+  border: none;
+}
+#likes_txt {
+  font-family: segoe script;
+  font-size: 25px;
+  margin-top: 15px;
+}
+#likes_root {
+  background-color: black;
+  border-radius: 75%;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px;
+}
+#csImg_div {
+  text-align: center;
+}
+#comingSoon_img {
+  height: 150px;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  display: grid;
+  grid-template-areas: "social social terms terms contact contact";
+  margin-top: 31px;
+  text-align: center;
+}
+#social_media {
+  grid-area: social;
+  /* margin-left: 10px; */
+}
+.footer_icons {
+  height: 35px;
+  margin-top: -25px;
+}
+#creator_terms {
+  grid-area: terms;
+}
+.terms {
+  margin-top: -15px;
+}
+#contact_info {
+  grid-area: contact;
+}
+.contacts {
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
+/* #####!!! Modals !!!##### */
+.modal_header {
+  background-color: beige;
+  display: flex;
+}
+.modal_img {
+  height: 100px;
+}
+.modalTitle_div {
+  display: inline-flex;
+  margin-top: 40px;
+}
+.modal_title {
+  margin-left: 5px;
+}
+#close_modal {
+ display: none;
+}
+.modal_body {
+  background-color: slategrey;
+}
+.modal_footer {
+  background-color: beige;
+  text-align: end;
+}

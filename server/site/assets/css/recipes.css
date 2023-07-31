@@ -1,0 +1,191 @@
+body {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+#nav_con {
+  grid-area: nav;
+  background-color: black;
+}
+.nav_links {
+  display: inline-flex;
+  text-align: center;
+}
+#img_logo {
+  height: 80px;
+  width: 90px;
+  margin-top: 5px;
+}
+.nav_items {
+  color: whitesmoke;
+  font-size: 25px;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+}
+.header_img {
+  height: 200px;
+}
+#header_img1 {
+  margin-right: 50px;
+}
+#header_img2 {
+  margin-left: 50px;
+}
+#header_title {
+  align-self: center;
+  animation-name: header_title;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: segoe script;
+  font-size: 80px;
+  text-shadow: 5px 5px 5px black;
+}
+@keyframes header_title {
+  0% {
+    color: #f7bdf7;
+  }
+  25% {
+    color: #f39494;
+  }
+  50% {
+    color: #f7bdf7;
+  }
+  75% {
+    color: #f39494;
+  }
+  100% {
+    color: #f7bdf7;
+  }
+}
+main {
+  grid-area: main;
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "ingredients video preparation"
+    "ingredients video preparation"
+    "comments comments comments";
+}
+
+/* Effecting both Ingredients & Preparations titles. */
+.sec_title {
+  font-family: segoe script;
+  font-size: 35px;
+  text-align: center;
+}
+#sec_ingredients {
+  grid-area: ingredients;
+  background-color: #f7bdf7ce;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px black;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.video_div {
+  grid-area: video;
+  text-align: center;
+  margin-top: 15px;
+}
+video {
+  height: 400px;
+}
+#preparation_sec {
+  grid-area: preparation;
+  background-color: #f7bdf7ce;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px black;
+  margin-top: 20px;
+  margin-right: 100px;
+ 
+}
+aside {
+  grid-area: comments;
+  background-color: rgba(190, 157, 49, 0.801);
+  border-radius: 25px;
+  box-shadow: 5px 5px 30px black;
+  height: 450px;
+  width: 900px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 490px;
+}
+.aside_title {
+  font-size: 25px;
+  text-align: center;
+}
+#comments_div {
+  display: flex;
+  margin-left: 15px;
+  margin-right: 25px;
+}
+
+#likes_div {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+}
+#likes_btn {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}
+#likes_thumb {
+  height: 25px;
+}
+.likes_count {
+  background-color: slategrey;
+  border-radius: 25px;
+  color: whitesmoke;
+  margin-top: 18px;
+  padding: 0px 10px 0px 10px;
+}
+#comments_sec {
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke; 
+  margin: 15px 10px 15px 10px;
+  overflow: auto;
+  padding: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+  bottom: 0px;
+  color: whitesmoke;
+  display: grid;
+  font-size: 20px;
+  grid-template-areas: "social social terms terms contact contact";
+  /* position: fixed; */
+  text-align: center;
+  width: 100%;
+}
+#social_media {
+  grid-area: social;
+}
+.footer_icons {
+  height: 35px;
+  margin-top: -25px;
+}
+#creator_terms {
+  grid-area: terms;
+}
+.terms {
+  margin-top: -15px;
+}
+#contact_info {
+  grid-area: contact;
+}
+.contacts {
+  margin-top: -15px;
+  margin-left: 20px;
+}

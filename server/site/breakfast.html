@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cox's Kitchen-Breakfast</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/landingPage_recipes.css">
+    <!-- javascript -->
+    <script defer src="./assets/javascript/hamburgers_sandwiches.js"></script>
+    <!-- ########## DO NOT TOUCH from here down!!! ########## -->
+    <!-- bootstrap css ##### change link on the streets ##### -->
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script defer src="../jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap  -->
+    <script defer src="../bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav_con">
+        <ul class="nav_links">
+            <a href="./index.html">
+                <!-- ########## NEED TO CHANGE only a Placeholer ########## -->
+                <img id="img_logo" src="./assets/images/placeHolders/street_art/streetart4.jpg"
+                    alt="image of cox's kitchen logo">
+            </a>
+            <a href="./appetizers.html" style="text-decoration: none;">
+                <li class="nav_items">Appetizers</li>
+            </a>
+            <a href="./baking.html" style="text-decoration: none;">
+                <li class="nav_items">Baking</li>
+            </a>
+            <a href="./candy.html" style="text-decoration: none;">
+                <li class="nav_items">Candy</li>
+            </a>
+            <a href="./healthy_choice.html" style="text-decoration: none;">
+                <li class="nav_items">Healthy Choice</li>
+            </a>
+        </ul>
+    </nav>
+    <header>
+        <h1>Cox' Kitchen Breakfast</h1>
+    </header>
+    <main>        
+        <section id="sandwiches_sec">
+            <h2>Breakfast</h2>
+            <div id="sandwiches_div">
+                <!-- "CARD" Bacon Cheese Burger  -->
+                <div id="card" class="card">
+                    <!-- Header -->
+                    <div class="card_header">
+                        <img class="card_img" src="./assets/images/placeHolders/menu_db/01_food-french_toast.jpg"
+                            alt="...">
+                        <h4 class="card_title">Blue Berry Pancakes</h4>
+                    </div>
+                    <!-- Body -->
+                    <div class="card_body">
+                        <p class="card_text">
+                            Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
+                        </p>
+
+                    </div>
+                    <!-- Footer -->
+                    <div class="card_footer">
+                        <div id="likes_div">
+                            <a href="./recipesHTML/sandwiches/redBaron_recipes.html" class="btn btn-success">
+                                <p id="goToRecipe_p">Go to Recipe</p>
+                            </a>
+                        </div>
+                        <!-- Review Container -->
+                        <div id="likes_div1">
+                            <!-- !!!!! MODAL AT BOTTOM OF DOCUMENT !!!!! -->
+                            <!-- ### Modal-trigger for Bacon CheeseBurger Comments ### -->
+                            <button id="reviewModal_trigger" class="btn btn-info" type="button" data-bs-toggle="modal"
+                                data-bs-target="#reviewRedBaronComm">
+                                Reviews
+                            </button>
+                            <!-- Likes Container -->
+                            <div id="likes_div2">
+                                <p id="likes_txt">likes</p>
+                                <p id="redBaronLikes_root"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comming Soon -->
+                <div class="card">
+                    <div id="csImg_div">
+                        <img id="comingSoon_img" src="./assets/images/comingSoon/comingSoon.png" alt="coming soon">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Social Media, Creator Info & Terms of Serveice, Contact Info -->
+    <footer>
+        <div id="social_media">
+            <p class="follow_title">Follow me&#64;:</p>
+            <a href="#" target="_blank">InDeed</a>
+            <a href="#" target="_blank">
+                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="footer_icons">
+            </a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank" class="footer_icons">Facebook</a>
+        </div>
+        <div id="creator_terms">
+            <p class="creator">Creative Cyber Designs&copy;2023</p>
+            <a href="#" target="_blank">
+                <p class="terms">Terms of Service</p>
+            </a>
+        </div>
+        <div id="contact_info">
+            <p class="contact_title">Contact Info:</p>
+            <a href="mailto:/">
+                <p class="contacts">jcox.jc77@gmail.com</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

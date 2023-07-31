@@ -1,0 +1,16 @@
+/*########## PHONES ##########*/
+/* samsung galaxy fold */
+@media all and (max-width: 280px) {
+}
+/* samsung galaxy S8 */
+@media all and (min-width: 281px) and (max-width: 360px) {
+}
+/* iPhone SE */
+@media all and (min-width: 361px) and (max-width: 375px) {
+}
+/* iPhone 12pro, pixel 5 */
+@media all and (min-width: 376px) and (max-width: 395px) {
+}
+/* iPhone XR, samsung S20 ultra and galaxyA51/71 */
+@media all and (min-width: 396px) and (max-width: 415px) {
+}

@@ -1,0 +1,9 @@
+/*########## TABLETS ##########*/
+/* surface duo */
+@media all and (min-width: 416px) and (max-width: 540px) {}
+/* iPad mini */
+@media all and (min-width: 541px) and (max-width: 770px) {}
+/* iPad air */
+@media all and (min-width: 771px) and (max-width: 820px) {}
+/* suface pro7 */
+@media all and (min-width: 821px) and (max-width: 915px) {}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cox's kitchen-Bacon Cheese Burger Recipe</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../../assets/css/recipes.css">
+    <!-- ########## Media Query's ########## -->
+    <!-- Laptops -->
+    <link rel="stylesheet" href="../../assets/mediaQuerys/recipes/recipesMedia_laptop.css">
+    <!-- Phones -->
+    <link rel="stylesheet" href="../../assets/mediaQuerys/recipes/recipesMedia_phone.css">
+    <!-- Tablets -->
+    <link rel="stylesheet" href="../../assets/mediaQuerys/recipes/recipesMedia_tablets.css">
+    <!-- javascript -->
+    <script defer src="../../assets/javascript/recipesJS/hamburgers/baconCheeseBurger.js"></script>
+    <!-- ########## DO NOT TOUCH from here down!!! ########## -->
+    <!-- bootstrap css ##### change link on the streets ##### -->
+    <link rel="stylesheet" href="../../bootstrap/dist/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script defer src="../../jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap  -->
+    <script defer src="../../bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-image: url(../../assets/images/hamburgers/bacon_burger1.jpg);">
+    <nav id="nav_con">
+        <ul class="nav_links">
+            <a href="../../index.html">
+                <!-- ########## NEED TO CHANGE only a Placeholer ########## -->
+                <img id="img_logo" src="../../assets/images/placeHolders/street_art/streetart4.jpg"
+                    alt="image of cox's kitchen logo">
+            </a>
+            <a href="../../appetizers.html" style="text-decoration: none;">
+                <li class="nav_items">Appetizers</li>
+            </a>
+            <a href="../../baking.html" style="text-decoration: none;">
+                <li class="nav_items">Baking</li>
+            </a>
+            <a href="../../candy.html" style="text-decoration: none;">
+                <li class="nav_items">Candy</li>
+            </a>
+            <a href="../../hamburger_sandwiches.html" style="text-decoration: none;">
+                <li class="nav_items">Hamburger & Sandwiches</li>
+            </a>
+            <a href="../../healthy_choice.html" style="text-decoration: none;">
+                <li class="nav_items">Healthy Choice</li>
+            </a>
+        </ul>
+    </nav>
+    <!-- Title Container -->
+    <header>       
+        <p id="header_title">Bacon Cheese Burger</p>        
+    </header>
+    <!-- Ingredients, Preparation, Comment Container -->
+    <main>
+        <section id="sec_ingredients">
+            <p class="sec_title">Ingredients:</p>
+            <div id="ingredients_root"></div>
+        </section>
+        <div class="video_div">
+            <video src="../../assets/videos/placeholdedrs/Pexels Videos 1924635.mp4" controls></video>
+        </div>
+        <section id="preparation_sec">
+            <p class="sec_title">Preparation:</p>
+            <!-- !!!!!need to write and script this!!!!! -->
+            <div id="preparation_root"></div>
+        </section>
+        <!-- Comment Container -->
+        <aside>
+            <p class="aside_title">We enjoy the feedback!</p>
+            <!-- Create a Comment / Likes  -->
+            <div id="comments_div">
+                <div>
+                    <!-- !!!!! MODAL AT BOTTOM OF DOCUMENT !!!!!
+                     ### Modal-trigger for Comments ### -->
+                    <button id="commentModal_trigger" type="button" class="btn btn-dark" data-bs-toggle="modal"
+                        data-bs-target="#commentForm">Comment</button>
+                    <div id="likes_div">
+                        <button id="likes_btn" class="">
+                            <img id="likes_thumb" src="../../assets/images/icons/bootstrap/thumbs_up.svg"
+                                alt="thumbs-up icon" srcset="">
+                        </button>
+                        <!-- !!!!! LIKES ROOT !!!!! -->
+                        <p id="likes_root" class="likes_count"></p>
+                    </div>
+                </div>
+                <!-- Comments -->
+                <section id="comments_sec">
+                    <!-- !!!!! COMMENTS ROOT !!!!! -->
+                    <div id="comments_root"></div>
+                </section>               
+            </div>
+        </aside>
+    </main>
+    <!--Social Media, Creator Info & Terms of Serveice, Contact Info -->
+    <footer>
+        <div id="social_media">
+            <p class="follow_title">Follow me&#64;:</p>
+            <a href="#" target="_blank">InDeed</a>
+            <a href="#" target="_blank">
+                <img src="../../assets/images/icons/getHub/icon.png" alt="getHub icon" class="footer_icons">
+            </a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank" class="footer_icons">Facebook</a>
+        </div>
+        <div id="creator_terms">
+            <p class="creator">Creative Cyber Designs&copy;2023</p>
+            <a href="#" target="_blank">
+                <p class="terms">Terms of Service</p>
+            </a>
+        </div>
+        <div id="contact_info">
+            <p class="contact_title">Contact Info:</p>
+            <a href="mailto:/">
+                <p class="contacts">jcox.jc77@gmail.com</p>
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+<!-- #####!!! Modal for Comments !!!##### -->
+<div id="commentForm" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bacon Cheeseburger</h5>
+                <button id="close_modal" type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <!-- Body -->
+            <div class="modal-body">
+                <form action="submit" method="POST">
+                    <label for="users_name">Name:</label>
+                    <br>
+                    <input id="users_name" type="text" placeholder="Enter Name" required>
+                    <textarea id="comment_txt" cols="60" rows="10" name="comment_txt" placeholder="comment here"
+                        required></textarea>
+                </form>
+            </div>
+            <!-- footer -->
+            <div class="modal-footer">
+                <button id="create_post" class="btn btn-primary" type="button">Post</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

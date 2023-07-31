@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cox's Kitchen</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/landingPage_recipes.css">
+    <!-- javascript -->
+    <script defer src="./assets/javascript/hamburgers_sandwiches.js"></script>
+    <!-- ########## DO NOT TOUCH from here down!!! ########## -->
+    <!-- bootstrap css ##### change link on the streets ##### -->
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script defer src="../jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap  -->
+    <script defer src="../bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav_con">
+        <ul class="nav_links">
+            <a href="./index.html">
+                <!-- ########## NEED TO CHANGE only a Placeholer ########## -->
+                <img id="img_logo" src="./assets/images/placeHolders/street_art/streetart4.jpg"
+                    alt="image of cox's kitchen logo">
+            </a>
+            <a href="./breakfast.html" style="text-decoration: none;">
+                <li class="nav_items">Breakfast</li>
+            </a>
+            <a href="./sandwiches.html" style="text-decoration: none;">
+                <li class="nav_items">Sandwiches</li>
+            </a>
+        </ul>
+    </nav>
+    <header>
+        <h1></h1>
+        <h2>Hamburgers</h2>
+    </header>
+    <main>
+        <!-- "CARD" Bacon Cheese Burger  -->
+        <div id="card" class="card">
+            <!-- Header -->
+            <div class="card_header">
+                <img class="card_img" src="./assets/images/hamburgers/bacon_burger.jpg" alt="...">
+                <h4 class="card_title">Bacon Cheese Burger</h4>
+            </div>
+            <!-- Body -->
+            <div class="card_body">
+                <p class="card_text">
+                    Some quick example text to build on the card title and make up the bulk of the card's
+                    content.
+                </p>
+            </div>
+            <!-- Footer -->
+            <div class="card_footer">
+                <div id="likes_div">
+                    <a href="./recipesHTML/hamburgers/baconCheeseBurger_recipe.html" class="btn btn-success">
+                        <p id="goToRecipe_p">Go to Recipe</p>
+                    </a>
+                </div>
+                <!-- Review Container -->
+                <div id="likes_div1">
+                    <!-- !!!!! MODAL AT BOTTOM OF DOCUMENT !!!!! -->
+                    <!-- ### Modal-trigger for Bacon CheeseBurger Comments ### -->
+                    <button id="reviewModal_trigger" class="btn btn-info" type="button" data-bs-toggle="modal"
+                        data-bs-target="#reviewBaconCheeseBurgerComm">
+                        Reviews
+                    </button>
+                    <!-- Likes Div Container -->
+                    <div id="likes_div2">
+                        <p id="likes_txt">likes</p>
+                        <p id="likes_root"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Comming Soon -->
+        <div class="card">
+            <div id="csImg_div">
+                <img id="comingSoon_img" src="./assets/images/comingSoon/comingSoon.png" alt="coming soon">
+                <img id="comingSoon_img" src="./assets/images/comingSoon/comingSoon.png" alt="coming soon">
+            </div>
+        </div>
+
+    </main>
+</body>
+<!-- #####!!! Modals !!!##### -->
+
+<!-- Bacon CheeseBurger Comments  -->
+<div id="reviewBaconCheeseBurgerComm" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Header -->
+            <div class="modal_header">
+                <img class="modal_img" src="./assets/images/hamburgers/bacon_burger.jpg" alt="bacon Cheeseburger"
+                    srcset="">
+                <div class="modalTitle_div">
+                    <h5 class="modal_title" id="exampleModalLabel">Bacon Cheeseburger Reviews</h5>
+                    <button id="close_modal" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+            </div>
+            <!-- Body -->
+            <div class="modal_body">
+                <div id="baconCheeseBurgerComm_root"></div>
+            </div>
+            <!-- footer -->
+            <div class="modal_footer">
+                <button id="back_modal" class="btn btn-primary" type="button">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

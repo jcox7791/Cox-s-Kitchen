@@ -1,0 +1,106 @@
+#nav_con {
+  grid-area: nav;
+  background-color: black;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#img_logo {
+  height: 80px;
+  width: 90px;
+}
+.nav_links {
+  display: inline-flex;
+  text-align: center;
+}
+.nav_items {
+  color: whitesmoke;
+  font-size: 25px;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-left: 35px;
+}
+header {
+  display: flex;
+  margin-top: 20px;
+}
+#header_img {
+  height: 350px;
+  margin-left: 150px;
+}
+#header_div{
+  animation-name: header_title;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: segoe script;
+  font-size: 80px;
+  margin-top: 90px;
+  margin-left: 100px;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+@keyframes header_title {
+  0% {
+    color: #f7bdf7;
+  }
+  25% {
+    color: #f39494;
+  }
+  50% {
+    color: #f7bdf7;
+  }
+  75% {
+    color: #f39494;
+  }
+  100% {
+    color: #f7bdf7;
+  }
+}
+.header_title{
+  margin-top: -90px;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.753);
+  border-style: double;
+  color: whitesmoke;
+  font-family: segoe print;
+  margin-top: -80px;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 15px;
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  margin-left: -8px;
+  display: grid;
+  grid-template-areas: "social social terms terms contact contact";
+  text-align: center;
+}
+#social_media {
+  grid-area: social;
+  /* margin-left: 10px; */
+}
+.footer_icons {
+  height: 35px;
+  margin-top: -25px;
+}
+#creator_terms {
+  grid-area: terms;
+}
+.terms {
+  margin-top: -15px;
+}
+#contact_info {
+  grid-area: contact;
+}
+.contacts {
+  margin-top: -15px;
+  margin-left: 20px;
+}

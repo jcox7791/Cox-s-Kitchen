@@ -1,0 +1,133 @@
+{
+  "cuisine": {
+    "appetizers": {
+      "comments": [
+        {
+          "userName": "jBomb",
+          "date": "2023-1-31",
+          "comment": "Welcome to Cox's Kitchen!"
+        },
+        {
+          "userName": "jcox007",
+          "date": "2023-1-31",
+          "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+        }
+      ],
+      "ingredients": [],    
+      "likes": "No Likes Yet!",  "Preparation":[]
+    },
+    "hamburgers": {
+      "baconCheeseBurger": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-4-20",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-4-20",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [
+          "Bacon",
+          "Garlic",
+          "Pepper",
+          "Salt",
+          "2 Egg (whites only)",
+          "1/2pd. Ground Beef",
+          "2 Baguette (see baking)",
+          "Onion",
+          "Lettuces",
+          "Tomato",
+          "Mayo",
+          "Ketchup"
+        ],
+        "likes": "No Likes Yet!",  "Preparation":[]
+      },
+      "cheeseBurger": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [],    
+        "likes": "No Likes Yet!",  "Preparation":[]
+      },
+      "doubleCheeseBurger": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [],    
+        "likes": "No Likes Yet!",  "Preparation":[]
+      },
+      "mtManBurger": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [],    
+        "likes": "No Likes Yet!",  "Preparation":[]
+      },
+      "planBurger": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [],    
+        "likes": "No Likes Yet!",  "Preparation":[]
+      }
+    },
+    "sandwiches": {
+      "redBoron": {
+        "comments": [
+          {
+            "userName": "jBomb",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen!"
+          },
+          {
+            "userName": "jcox007",
+            "date": "2023-1-31",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        ],
+        "ingredients": [],    
+        "likes": "No Likes Yet!",  "Preparation":[]
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "recipes": {
+    "appetizers": {
+      "comments": [],
+      "ingredients": [],
+      "likes": 0,
+      "Preparation": []
+    },
+    "hamburgers": {
+      "baconCheeseBurger": {
+        "comments": {
+          "000": {
+            "usersName": "James M. Cox Jr.",
+            "date": "2023-4-20",
+            "comment": "Welcome to Cox's Kitchen! We would love to hear anything you have to say GOOD or BAD. Just know all feedback is good feedback because it helps us make your experience the best it can possible be. Now have fun Cooking!"
+          }
+        },
+        "ingredients": [
+          "Bacon",
+          "Garlic",
+          "Pepper",
+          "Salt",
+          "2 Egg (whites only)",
+          "1/2pd. Ground Beef",
+          "Cheese",
+          "2 Baguette (see baking)",
+          "Onion",
+          "Pickles",
+          "Lettuces",
+          "Tomato",
+          "Mayo",
+          "Ketchup"
+        ],
+        "likes": 12,
+        "preparation": [
+          "Place bacon in your frying-pan and fry to your liking. Then remove your bacon but let leave the rendered grease in the pan",
+          "While the bacon is frying peel your garlic and crush the cloves against the copping board. When bacon is done replace bacon with the garlic and turn down to a medium heat until the room smells of the garlic.",
+          "Remove the garlic from the pan and place into a bowl and add the salt & pepper, two egg-whites mix ingredients together.",
+          "Take your mixture and add your half pound of hamburger into the mix and kneed these ingredients thoroughly together. Once done make two paddies out of the con-taints.",
+          "Turn up the heat on the frying pan to medium-high and place the paddies into the pan. Cook to your meat to your liking and don’t forget to melt your cheese before removing your hamburger paddies.",
+          "Now that all of that is done we can construct our hamburger with condiments."
+        ]
+      },
+      "cheeseBurger": {
+        "comments": [],
+        "ingredients": [],
+        "likes": 0,
+        "Preparation": []
+      },
+      "doubleCheeseBurger": {
+        "comments": [],
+        "ingredients": [],
+        "likes": 0,
+        "Preparation": []
+      },
+      "mtManBurger": {
+        "comments": [],
+        "ingredients": [],
+        "likes": 0,
+        "Preparation": []
+      },
+      "planBurger": {
+        "comments": [],
+        "ingredients": [],
+        "likes": 0,
+        "Preparation": []
+      }
+    },
+    "sandwiches": {
+      "redBoron": {
+        "comments": [],
+        "ingredients": [
+          "Swirled Rye-bread",
+          "1/8lb. Turkey",
+          "1/8lb. Honey Ham",
+          "Cream Cheese",
+          "Blackberry Jelly",
+          "Lettuce"
+        ],
+        "likes": 0,
+        "Preparation": [
+          "Take two slices of Swirled Rye-bread and place them open face before you.",
+          "Apply a far amount of cream cheese on one slice of your bread.",
+          "Apply on your other slice your blackberry jelly, remember to apply a good amount.",
+          "Now on the slice with your blackberry jelly intermingle your turkey and ham.",
+          "Apply your liking of lettuce to your sandwich."
+        ]
+      }
+    }
+  }
+}
